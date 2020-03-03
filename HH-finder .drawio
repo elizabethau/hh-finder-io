@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-03-03T20:10:45.405Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="TmxDPXigIGPh1IC8wS9I" version="12.7.9" type="github" pages="2">
-  <diagram id="S5maDODhcnOZnMhzDpbE" name="Page-1">
-    <mxGraphModel dx="658" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="www.draw.io" modified="2020-03-03T21:52:15.229Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Fv0I_qlS6vMeYvgv7Zsw" version="12.7.9" type="github" pages="3">
+  <diagram id="S5maDODhcnOZnMhzDpbE" name="Data Model">
+    <mxGraphModel dx="548" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="m9ut-pyjq0sRL6vZoF1c" name="Page-2">
+  <diagram id="m9ut-pyjq0sRL6vZoF1c" name="Wire Diagram">
     <mxGraphModel dx="658" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="36hvNaFL6v7OcDbpf-Rz-0" />
@@ -52,7 +52,7 @@
           <mxGeometry x="400" y="180" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="36hvNaFL6v7OcDbpf-Rz-14" value="Title" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="36hvNaFL6v7OcDbpf-Rz-1">
-          <mxGeometry x="160" y="80" width="330" height="40" as="geometry" />
+          <mxGeometry x="160" y="100" width="330" height="40" as="geometry" />
         </mxCell>
         <mxCell id="36hvNaFL6v7OcDbpf-Rz-17" value="Brewery 2" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="36hvNaFL6v7OcDbpf-Rz-1">
           <mxGeometry x="160" y="240" width="200" height="40" as="geometry" />
@@ -77,6 +77,38 @@
             <mxPoint x="160" y="160" as="sourcePoint" />
             <mxPoint x="490" y="160" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7yVdQSgeIadWBlMvFRlh" name="Page-3">
+    <mxGraphModel dx="658" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="aeli39g_B1lAEsEmIXM--0" />
+        <mxCell id="aeli39g_B1lAEsEmIXM--1" parent="aeli39g_B1lAEsEmIXM--0" />
+        <mxCell id="aeli39g_B1lAEsEmIXM--2" value="Title" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aeli39g_B1lAEsEmIXM--1">
+          <mxGeometry x="160" y="100" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uZjBmdHiD3bgkm1jyec8-0" value="" style="endArrow=none;html=1;" edge="1" parent="aeli39g_B1lAEsEmIXM--1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="490" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pRrywquJS6HnPkCrWojh-0" value="Brewery 1" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aeli39g_B1lAEsEmIXM--1">
+          <mxGeometry x="160" y="180" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YyVDcncaOIc66CtTnsv0-0" value="Today&#39;s Hours" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aeli39g_B1lAEsEmIXM--1">
+          <mxGeometry x="400" y="180" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YyVDcncaOIc66CtTnsv0-1" value="Address" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aeli39g_B1lAEsEmIXM--1">
+          <mxGeometry x="160" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YyVDcncaOIc66CtTnsv0-2" value="Confirm Hours" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#000000;" vertex="1" parent="aeli39g_B1lAEsEmIXM--1">
+          <mxGeometry x="400" y="240" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jT6qx31tFlI2UD3M_xQQ-1" value="Happy Hour menu&amp;nbsp;" style="text;html=1;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="aeli39g_B1lAEsEmIXM--1">
+          <mxGeometry x="160" y="280" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
